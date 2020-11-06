@@ -67,23 +67,25 @@ Title
 This will create a title. Like this document
     .TL
 .NH 2 
+Move to left/right/center
+.LP
+l, r, c for left right center
+    .ad r
+.NH 2 
 Author
 .LP
 This will add an author.
     .AU
-
 .NH 2 
 Indented Paragraph
 .LP
 This create an indent with a number . at the start. Like this list.
     .IP 1.
-
 .NH 2 
 Headers
 .LP
 This creates the next heading and autonumbers it. The number after it determines level. eg. 1 for something like 1.0, 2.0 and 2 for something like 1.1, 2.1 etc
     .NH 1
-
 .NH 2 
 Indented List
 .LP
